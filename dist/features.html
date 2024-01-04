@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        SiteGPT - Parth Demo
+    </title>
+
+    <!-- Google Fonts - Chivo  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- output css link -->
+    <link rel="stylesheet" href="css/output.css">
+
+</head>
+
+<!-- ----------------------------- -->
+
+<!-- Body Section Started -->
+
+<body class="overflow-x-hidden font-sans antialiased bg-slate-50 text-slate-900">
+
+    <!-- Header Start -->
+    <header class="sticky top-0 z-40 py-3 bg-white border-b border-slate-200">
+        <div class="max-w-screen-xl px-8 mx-auto ">
+            <div class="flex items-center justify-between gap-6">
+                <div class="">
+                    <img class="w-auto h-7 shrink-0" src="../src/images/logo-full.svg" alt="">
+                </div>
+
+                <div class="flex items-center justify-center gap-6">
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 bg-slate-100 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Features
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Integrations
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Pricing
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Live Demo
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Blog
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <a class="px-3 py-1 text-base font-semibold text-blue-600 transition-all duration-200 bg-white border border-blue-600 rounded-md hover:bg-blue-50"
+                        href="">
+                        Sign in
+                    </a>
+
+                    <a class="px-3 py-1 text-base font-semibold text-white transition-all duration-200 bg-blue-700 border border-transparent rounded-md hover:bg-blue-600"
+                        href="">
+                        Start a free trial
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Features Section Start -->
+
+    <section class="py-20 bg-white">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-6xl font-semibold tracking-tight">
+                    The <span class="text-blue-600">AI</span> chatbot that's an<span class="text-blue-600">
+                        expert</span> on your products
+                </h1>
+                <p class="mt-6 text-xl font-normal leading-relaxed text-slate-700">
+                    It's like having ChatGPT specifically for your products. Instantly answer your visitors'
+                    questions with a personalized chatbot trained on your website content.
+                </p>
+
+                <div class="flex flex-wrap items-center justify-center mt-10 gap-x-6 gap-y-3">
+                    <div class="inline-flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">Personalized onboarding help</p>
+                    </div>
+
+                    <div class="inline-flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">Friendly pricing as you scale</p>
+                    </div>
+                    <div class="inline-flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">95+ languages supported</p>
+                    </div>
+                    <div class="inline-flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">14-day free trial</p>
+                    </div>
+                    <div class="inline-flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">Cancel anytime</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center gap-4 mt-10">
+                    <a class="px-6 py-3 text-xl font-medium text-white transition-all duration-200 bg-blue-600 rounded-lg hover:bg-blue-500"
+                        href="">
+                        Start a free trial
+                    </a>
+
+                    <a class="px-6 py-3 text-xl font-medium transition-all duration-200 bg-white border rounded-lg shadow-md text-slate-800 border-slate-300 hover:bg-slate-50 hover:shadow-transparent"
+                        href="">
+                        Book a demo
+                    </a>
+                </div>
+            </div>
+
+            <div class="max-w-6xl mx-auto mt-16">
+                <img class="border-2 border-blue-200 shadow-xl rounded-2xl" src="../src/images/features-mockup.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Features Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Clients Logo Start -->
+    <section class="py-12 bg-gradient-to-b from-white to-slate-100">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="text-center">
+                <p class="text-base font-medium text-slate-700">
+                    Trusted by these leading companies
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto mt-6">
+                <div class="flex flex-wrap items-center justify-center gap-8">
+                    <img class="w-auto h-14" src="../src/images/alignable.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/screen-binge.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/sheets-giggles.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/cbs-bahamas.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/link-research-tools.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Logo End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Solutions Section Start -->
+
+    <section class="py-12 bg-slate-100">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-5xl font-semibold tracking-tight text-center text-slate-900">
+                    Everything you need to roll out your own Al chatbot
+                </h2>
+                <p class="mt-6 text-lg font-medium leading-relaxed text-slate-700">
+                    SiteGPT is a production-ready support solution that does the work of a full support staff but at a
+                    fraction of the cost.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Training & Customization Section Start -->
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="relative grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div class="sticky self-start col-span-1 top-20">
+                    <h3 class="text-5xl font-semibold">
+                        Training & Customization
+                    </h3>
+                    <p class="mt-6 text-lg font-normal leading-relaxed text-slate-700">
+                        Unlock the full potential of your chatbot by customizing its knowledge and appearance.
+                    </p>
+                </div>
+
+                <div class="col-span-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-12">
+                        <div class="">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                1
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Import Training Content
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Enter a URL for SiteGPT to scan, or upload files, or drop raw text content directly,
+                                making it easier than ever to keep your chatbot informed and effective.
+                            </p>
+                        </div>
+
+                        <div class="">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                2
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Q&A Training
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Use real chat history to refine and improve your chatbot by providing feedback that
+                                allows it to improve with every interaction.
+                        </div>
+
+                        <div class="">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                3
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                GPT-3.5 & GPT-4
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Choose between two powerful AI models and switch anytime depending on how you want your
+                                chatbot to behave. GPT-3.5 prioritizes speed while GPT-4 prioritizes depth and accuracy.
+                            </p>
+                        </div>
+
+                        <div class="">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                4
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Embed on Sites
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Embed a chatbot on as many sites as you want your marketing site, in-app, help center…
+                                wherever.
+                            </p>
+                        </div>
+
+                        <div class="">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                5
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Customize Appearance
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Personalize your chatbot to match your brand, using custom logos and colors to provide a
+                                cohesive user experience.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- <div class="grid grid-cols-3 gap-6">
+                <div class="col-span-1">
+                    <div class="max-w-3xl mx-auto">
+                        <div class="text-5xl font-semibold">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+
+
+
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Training & CustomizationSection End -->
+
+    <!-- ----------------------------- -->
+
+    <!--Chat Interactions Section Start -->
+
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div class="col-span-1">
+                    <div class="max-w-3xl mx-auto">
+                        <div class="text-5xl font-semibold">
+                            <h3>
+                                Chat Interactions
+                            </h3>
+                            <p class="mt-6 text-lg font-medium leading-relaxed text-slate-700">
+                                Enhance user interactions with powerful features such as advanced AI engines,
+                                multi-language support, and seamless human escalation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+                        <div class="mt-2">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                1
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Quick Prompts
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Provide users with digital icebreakers to kick things off. Include frequently asked
+                                questions or questions you wish more users would ask to get value out of your product or
+                                service.
+                            </p>
+                        </div>
+
+                        <div class="mt-10">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                3
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Escalate to a Human
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                While AI can handle a vast majority of inquiries, some conversations require a human
+                                touch. Users can seamlessly transition the conversation to a live agent at the push of a
+                                button. This hybrid approach ensures that users always receive the best possible
+                                assistance.
+                            </p>
+                        </div>
+
+                        <div class="mt-10">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                5
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Lead Generation
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Don't just answer questions, seize opportunities. Your chatbot captures interested
+                                visitors' details, allowing you to build a list of potential leads.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+                        <div class="mt-2">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                2
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Chat History
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Review each conversation, assess the chatbot's performance, and determine whether
+                                visitors' questions were effectively addressed. You're never in the dark about what your
+                                chatbot is responding with.
+                        </div>
+
+                        <div class="mt-10">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                4
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Language Support
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Your chatbot is ready to chat in 95 languages. Let visitors ask questions and respond in
+                                any language.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Interactions Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!--Extensions Section Start -->
+
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="grid grid-cols-3 gap-6">
+                <div class="col-span-1 ">
+                    <div class="max-w-3xl mx-auto">
+                        <div class="text-5xl font-semibold">
+                            <h3>
+                                Extensions
+                            </h3>
+                            <p class="mt-6 text-lg font-medium leading-relaxed text-slate-700">
+                                Extend your chatbot's capabilities with automation, insightful summaries, and powerful
+                                integrations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+                        <div class="mt-2">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                1
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Functions
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Allows users to automate tasks just by interacting with your chatbot. Your chatbot can
+                                listen, understand, and interact with other systems based on chat interactions.
+                            </p>
+                        </div>
+
+                        <div class="mt-10">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                3
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                API
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Connect SiteGPT to any other app you want to sync data to, automatically retrain with
+                                new content, and update settings programmatically.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-span-1">
+                    <div class="flex flex-wrap items-center">
+                        <div class="mt-2">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                2
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Email Summaries
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                Keep a pulse on chatbot interactions with daily summaries delivered to your inbox.
+                                Upload more training data where needed, track the chatbot's performance, and gain
+                                insights into user behavior.
+                        </div>
+
+                        <div class="mt-10">
+                            <span class="inline-flex px-4 py-2 text-xl font-semibold text-white bg-blue-600 rounded-md">
+                                4
+                            </span>
+                            <h4 class="mt-4 text-2xl font-semibold text-slate-800">
+                                Integrations
+                            </h4>
+                            <p class="mt-2 text-lg font-normal text-slate-600">
+                                With native integrations into platforms like Crisp, Intercom, and Zendesk, your chatbot
+                                becomes an extended arm of your existing toolkit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extensions Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Live Demo Section Start -->
+
+    <div class="py-12 bg-slate-100">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="grid items-center grid-cols-5 gap-8">
+                <div class="col-span-2">
+                    <span class="font-semibold tracking-wider text-blue-700">
+                        LIVE DEMO
+                    </span>
+                    <div class="mt-4 text-5xl font-semibold text-slate-900">
+                        See for yourself.
+                    </div>
+                    <p class="mt-2 text-xl font-medium text-slate-600">
+                        Ask the SiteGPT chatbot a question about itself.
+                    </p>
+                </div>
+
+                <div class="col-span-1">
+
+                </div>
+
+                <div class="col-span-2 mx-auto">
+                    <div class="">
+                        <img class="shadow-xl rounded-2xl" src="../src/images/Screenshot 2023-12-27 183643.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Live Demo Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Client Testimonials Start -->
+    <!-- Testimonials na title & subtitle niche nai avta -->
+
+    <section class="py-12">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="text-center">
+                <div class="font-semibold tracking-wider text-blue-600">
+                    CUSTOMER TESTIMONIALS
+                </div>
+                <div class="mt-4 text-5xl font-semibold tracking-tight text-slate-900">
+                    Don't just take our word for it
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-12 mt-16">
+                <div class="flex items-start justify-start gap-6 ">
+                    <div class="border rounded-full shadow-md shrink-0 border-slate-400">
+                        <div class="object-cover w-16 h-16">
+                            <img class="w-full h-full rounded-full" src="../src/images/christoph.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-lg font-normal leading-relaxed text-slate-600">
+                            “SiteGPT appears to be first really production ready support solution that allows custom
+                            training, while so many others break or simply lack functionality. (we have tested and
+                            trialed MANY in the past 3 months)”
+                        </p>
+                        <p class="mt-3 text-xl font-semibold text-blue-600">
+                            Christoph C. Cemper
+                        </p>
+                        <p class="text-base font-normal leading-relaxed text-slate-500">
+                            Founder & CEO of AIPRM.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start justify-start gap-6 ">
+                    <div class="border rounded-full shadow-md shrink-0 border-slate-400">
+                        <div class="object-cover w-16 h-16">
+                            <img class="w-full h-full rounded-full" src="../src/images/akhil.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-lg font-normal leading-relaxed text-slate-600">
+                            “Other than the obvious benefits of using SiteGPT, we are getting user feedback/feature
+                            requests - it's only day 1 of using the SiteGPT bot.”
+                        </p>
+                        <p class="mt-3 text-xl font-semibold text-blue-600">
+                            Akhil Kundh
+                        </p>
+                        <p class="text-base font-normal leading-relaxed text-slate-500">
+                            Growth at CheqUptime
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start justify-start gap-6 ">
+                    <div class="border rounded-full shadow-md shrink-0 border-slate-400">
+                        <div class="object-cover w-16 h-16">
+                            <img class="w-full h-full rounded-full" src="../src/images/brent.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-lg font-normal leading-relaxed text-slate-600">
+                            “We've got the bot dialled in - we're using GPT-4, have an avenue for escalations to
+                            Zendesk, and so far I have no complaints.”
+                        </p>
+                        <p class="mt-3 text-xl font-semibold text-blue-600">
+                            Brent Burrows II
+                        </p>
+                        <p class="text-base font-normal leading-relaxed text-slate-500">
+                            Vice President – Retail & Sales at CBS Bahamas
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start justify-start gap-6 ">
+                    <div class="border rounded-full shadow-md shrink-0 border-slate-400">
+                        <div class="object-cover w-16 h-16">
+                            <img class="w-full h-full rounded-full" src="../src/images/frank.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-lg font-normal leading-relaxed text-slate-600">
+                            “Every now and then, you stumble on a great solution. SiteGPT is like I imagined a chatbot
+                            solution could be a few years back.”
+                        </p>
+                        <p class="mt-3 text-xl font-semibold text-blue-600">
+                            Frank Smit
+                        </p>
+                        <p class="text-base font-normal leading-relaxed text-slate-500">
+                            Chief Innovation Officer at OBI4wan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- FAQ'S Start -->
+
+    <!-- FAQ'S End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Call to Action Start -->
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-screen-xl px-8 mx-auto ">
+            <div class="p-16 text-center rounded-3xl bg-gradient-to-br from-blue-800 to-blue-500">
+                <div class="max-w-2xl mx-auto">
+                    <h2 class="text-5xl font-semibold text-white leading">
+                        Ready to takasasase SiteGPT for a spin?
+                    </h2>
+                </div>
+                <div class="max-w-xl mx-auto mt-6">
+                    <h2 class="text-xl font-normal text-blue-200 leading">
+                        Find out if a personalized AI support chatbot is a good fit for you in just a few hours.
+                    </h2>
+                </div>
+
+                <div class="flex items-center justify-center gap-4 mt-8">
+                    <a class="px-6 py-3 text-lg font-semibold text-blue-700 transition-all duration-200 bg-white border-2 border-transparent rounded-lg shadow-md hover:bg-blue-100 hover:shadow-transparent"
+                        href="">
+                        Start a free trial
+                    </a>
+                    <a class="px-6 py-3 text-lg font-semibold text-white transition-all duration-200 bg-blue-600 border-2 border-white rounded-lg hover:bg-blue-500"
+                        href="">
+                        Book a demo
+                    </a>
+                </div>
+
+                <div class="max-w-xl mx-auto mt-12">
+                    <div class="flex flex-wrap items-center justify-center mt-6 gap-x-6 gap-y-3">
+                        <div class="inline-flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-white">Personalized onboarding help</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-white">Friendly pricing as you scale</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-white">95+ languages supported</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-white">14-day free trial</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-white">Cancel anytime</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action End -->
+
+    <!-- ----------------------------- -->
+
+</body>
+
+<!-- Body Section Started -->
+
+<!-- ----------------------------- -->
+
+<!-- Footer Start -->
+
+<footer class="py-12 bg-slate-100">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="grid grid-cols-5 gap-10">
+
+            <div class="col-span-3">
+                <div class="max-w-xl">
+                    <img class="w-auto h-8" src="../src/images/logo-full.svg" alt="">
+                    <p class="mt-6 text-base text-slate-700">
+                        Instantly answer your visitors' questions with a personalized chatbot trained on your website
+                        content.
+                    </p>
+                    <img class="w-auto h-10 mt-4" src="../src/images/top-post-badge.svg" alt="">
+
+                    <p class="flex items-center justify-start gap-2 mt-6 font-medium text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"
+                                stroke-width="0" fill="currentColor" />
+                            <path
+                                d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"
+                                stroke-width="0" fill="currentColor" />
+                        </svg>
+                        <a href="">bhanu@sitegpt.ai</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="text-lg font-semibold text-blue-600">
+                    <h5>Products</h5>
+                </div>
+                <div class="mt-4 space-y-3 text-base font-medium text-slate-600">
+                    <p>Features</p>
+                    <p>Integrations</p>
+                    <p>Pricing</p>
+                    <p>Blog</p>
+                    <p>API Docs</p>
+                    <p>Affiliates</p>
+                </div>
+            </div>
+
+            <div class="col-span-1">
+                <div class="text-lg font-semibold text-blue-600">
+                    <h5>Legal</h5>
+                </div>
+                <div class="mt-4 space-y-3 text-base font-medium text-slate-600">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy</p>
+                    <p>Refund Policy</p>
+                    <p>Contact us</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- Footer End -->
+
+<!-- Footer Botoom Bar Start -->
+
+<section class="py-8 bg-slate-100">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="flex items-center justify-between gap-6">
+            <p class="text-base font-medium text-slate-600">
+                © SiteGPT 2023 . All rights reserved
+            </p>
+            <div class="inline-flex items-center justify-end gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-slate-600" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z"
+                        stroke-width="0" fill="currentColor" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-slate-600" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"
+                        stroke-width="0" fill="currentColor" />
+                </svg>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<!-- Footer Botoom Bar End -->
+
+<!-- ----------------------------- -->
+
+</html>

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        SiteGPT - Parth Demo
+    </title>
+
+    <!-- Google Fonts - Chivo  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- output css link -->
+    <link rel="stylesheet" href="css/output.css">
+
+</head>
+
+<!-- ----------------------------- -->
+
+<!-- Body Section Started -->
+
+<body class="overflow-x-hidden font-sans antialiased bg-slate-50 text-slate-900">
+
+    <!-- Header Start -->
+    <header class="py-3 border-b bg-slate-50 border-slate-200">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="flex items-center justify-between gap-6">
+                <div class="">
+                    <img class="w-auto h-7 shrink-0" src="../src/images/logo-full.svg" alt="">
+                </div>
+
+                <div class="flex items-center justify-center gap-6">
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Features
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Integrations
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Pricing
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Live Demo
+                    </a>
+                    <a class="px-2 py-1 text-base font-medium transition-all duration-200 rounded-md text-slate-800 hover:text-blue-700 hover:bg-slate-100"
+                        href="">
+                        Blog
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <a class="px-3 py-1 text-base font-semibold text-blue-600 transition-all duration-200 bg-white border border-blue-600 rounded-md hover:bg-blue-50"
+                        href="">
+                        Sign in
+                    </a>
+
+                    <a class="px-3 py-1 text-base font-semibold text-white transition-all duration-200 bg-blue-700 border border-transparent rounded-md hover:bg-blue-600"
+                        href="">
+                        Start a free trial
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Hero Section Start -->
+
+    <section class="py-12 bg-white sm:py-16 lg:py-20 xl:py-24">
+        <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 xl:px-12">
+            <div class="grid items-center grid-cols-2 gap-12">
+                <div class="">
+                    <img class="transition-shadow rounded-lg hover:shadow-lg h-14"
+                        src="../src/images/top-post-badge.svg" alt="">
+                    <h1 class="max-w-xl mt-6 text-6xl font-semibold">
+                        Make <span class="text-blue-600">AI</span> your expert customer <span
+                            class="text-blue-600">support agent</span>
+                    </h1>
+                    <p class="mt-6 text-xl font-medium leading-relaxed text-slate-700">
+                        It's like having ChatGPT specifically for your products. Instantly answer your visitors'
+                        questions with a personalized chatbot trained on your website content.
+                    </p>
+
+
+                    <div class="flex flex-wrap items-center mt-6 gap-x-6 gap-y-3">
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-slate-700">Personalized onboarding help</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-slate-700">Friendly pricing as you scale</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-slate-700">95+ languages supported</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-slate-700">14-day free trial</p>
+                        </div>
+                        <div class="inline-flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                <path d="M9 12l2 2l4 -4" />
+                            </svg>
+                            <p class="text-base font-medium text-slate-700">Cancel anytime</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4 mt-8">
+                        <a class="px-6 py-3 text-xl font-medium text-white transition-all duration-200 bg-blue-600 rounded-lg hover:bg-blue-500"
+                            href="">
+                            Start a free trial
+                        </a>
+                        <a class="px-6 py-3 text-xl font-medium transition-all duration-200 bg-white border rounded-lg shadow-md text-slate-800 border-slate-300 hover:bg-slate-50 hover:shadow-transparent"
+                            href="">
+                            Book a demo
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="../src/images/hero-illustration.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Clients Logo Start -->
+    <!-- logo center ma lavva che aju baju thi width work mathi karti -->
+    <section class="py-12 bg-gradient-to-b from-white to-slate-200">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="text-center">
+                <p class="text-base font-medium text-slate-700">
+                    Trusted by these leading companies
+                </p>
+            </div>
+
+            <div class="max-w-5xl mx-auto mt-6">
+                <div class="flex flex-wrap items-center justify-center gap-8">
+                    <img class="w-auto h-14" src="../src/images/alignable.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/screen-binge.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/sheets-giggles.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/cbs-bahamas.png" alt="">
+                    <img class="w-auto h-14" src="../src/images/link-research-tools.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Logo End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Before After Section Start -->
+
+    <div class="py-12 bg-slate-200">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center ">
+                    <h2 class="text-5xl font-semibold tracking-tight text-slate-900">
+                        Imagine what you could do if you had an expert chatbot answering questions 24/7
+                    </h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-12 mt-12">
+                <!-- Card One Start -->
+                <div class="p-10 bg-white shadow-lg rounded-2xl">
+                    <div class="inline-flex items-center justify-start gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 size-5 shrink-0"
+                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M19 5v6a3 3 0 0 1 -3 3h-7" />
+                            <path d="M13 10l-4 4l4 4m-5 -8l-4 4l4 4" />
+                        </svg>
+                        <p class="text-base font-medium text-slate-700">
+                            Before
+                        </p>
+                    </div>
+                    <h3 class="mt-4 text-3xl font-semibold text-slate-800">
+                        Fickle, one-size-fits-all chatbots that do more harm than good
+                    </h3>
+
+                    <div class="mt-6 space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-red-300 size-5 shrink-0"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 6.66a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z"
+                                        stroke-width="0" fill="currentColor" />
+                                </svg>
+                            </div>
+                            <p class="text-xl font-normal text-slate-600">Generic GPT tools don't answer based on your
+                                training data
+                            </p>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <div class="py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-red-300 size-5 shrink-0"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 6.66a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z"
+                                        stroke-width="0" fill="currentColor" />
+                                </svg>
+                            </div>
+                            <p class="text-xl font-normal text-slate-600">
+                                Custom-built bots are finicky and difficult to maintain
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-red-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 6.66a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-slate-600">
+                                Customer support staff takes 3+ months to train
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-red-300 size-5 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 6.66a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-slate-600">
+                                Bogged down with support tickets
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Card One End -->
+
+                <!-- Card Two Start -->
+                <div class="p-10 bg-blue-600 shadow-lg rounded-2xl">
+                    <div class="inline-flex items-center justify-start gap-1">
+                        <p class="text-base font-medium text-blue-50">
+                            After
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white size-5 shrink-0" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M19 5v6a3 3 0 0 1 -3 3h-7" />
+                            <path d="M13 10l-4 4l4 4m-5 -8l-4 4l4 4" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mt-4 text-3xl font-semibold text-white">
+                        An automated resource that super charges your support team
+                    </h3>
+
+                    <div class="mt-6 space-y-4">
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-50 size-6 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-white">
+                                Provide 24/7/365 quality customer support with instant responses
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-50 size-6 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-white">
+                                Automate answering the vast majority of support tickets
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-50 size-6 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-white">
+                                Make your current support team twice as productive
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-50 size-6 shrink-0"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12.01 2.011a3.2 3.2 0 0 1 2.113 .797l.154 .145l.698 .698a1.2 1.2 0 0 0 .71 .341l.135 .008h1a3.2 3.2 0 0 1 3.195 3.018l.005 .182v1c0 .27 .092 .533 .258 .743l.09 .1l.697 .698a3.2 3.2 0 0 1 .147 4.382l-.145 .154l-.698 .698a1.2 1.2 0 0 0 -.341 .71l-.008 .135v1a3.2 3.2 0 0 1 -3.018 3.195l-.182 .005h-1a1.2 1.2 0 0 0 -.743 .258l-.1 .09l-.698 .697a3.2 3.2 0 0 1 -4.382 .147l-.154 -.145l-.698 -.698a1.2 1.2 0 0 0 -.71 -.341l-.135 -.008h-1a3.2 3.2 0 0 1 -3.195 -3.018l-.005 -.182v-1a1.2 1.2 0 0 0 -.258 -.743l-.09 -.1l-.697 -.698a3.2 3.2 0 0 1 -.147 -4.382l.145 -.154l.698 -.698a1.2 1.2 0 0 0 .341 -.71l.008 -.135v-1l.005 -.182a3.2 3.2 0 0 1 3.013 -3.013l.182 -.005h1a1.2 1.2 0 0 0 .743 -.258l.1 -.09l.698 -.697a3.2 3.2 0 0 1 2.269 -.944zm3.697 7.282a1 1 0 0 0 -1.414 0l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.32 1.497l2 2l.094 .083a1 1 0 0 0 1.32 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+                                    stroke-width="0" fill="currentColor" />
+                            </svg>
+                            <p class="text-xl font-normal text-white">
+                                Free up time to work on higher-level tasks
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Card Two End -->
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Before After Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Three Steps Section Start -->
+    <!-- 1-2-3 tags create karva -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="text-5xl font-semibold tracking-tight">
+                    You're <span class="text-blue-600">three easy steps</span> away from your own personalized AI
+                    support
+                    chatbot
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-16 mt-16">
+                <div>
+                    <div
+                        class="inline-flex items-center justify-center text-lg font-bold text-white bg-blue-600 rounded-lg size-10">
+                        1
+                    </div>
+
+                    <h4 class="mt-5 text-2xl font-semibold text-slate-800">
+                        Sync training data
+                    </h4>
+
+                    <p class="mt-2 text-lg font-normal text-slate-600">
+                        Enter your URL for SiteGPT to scan, or upload files, or drop in raw text content.
+                    </p>
+
+                </div>
+
+                <div>
+                    <div
+                        class="inline-flex items-center justify-center text-lg font-bold text-white bg-blue-600 rounded-lg size-10">
+                        2
+                    </div>
+
+                    <h4 class="mt-5 text-2xl font-semibold text-slate-800">
+                        Install on your site
+                    </h4>
+
+                    <p class="mt-2 text-lg font-normal text-slate-600">
+                        Embed a chatbot on as many sites as you want your marketing site, in-app, help center…
+                        wherever.
+                    </p>
+
+                </div>
+
+                <div class="space-y-4">
+                    <div
+                        class="inline-flex items-center justify-center text-lg font-bold text-white bg-blue-600 rounded-lg size-10">
+                        3
+                    </div>
+
+                    <h4 class="text-2xl font-semibold text-slate-800">
+                        Learn and refine
+                    </h4>
+
+                    <p class="text-lg font-normal text-slate-600">
+                        Use real chat history to improve your chatbot by providing feedback that allows it to
+                        improve
+                        with every interaction.
+                    </p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Three Steps Section End -->
+
+    <!-- ----------------------------- -->
+
+
+    <!-- Sticky Card One Start -->
+    <!-- All card ma left side width work nai karti -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="relative space-y-6">
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="px-16 py-8">
+                        <div class="grid items-center grid-cols-5 gap-14">
+                            <div class="col-span-2 ">
+                                <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                    PERSONALIZED CHATBOT
+                                </p>
+                                <h3 class="mt-8 text-4xl font-semibold text-slate-900">
+                                    Build a custom chatbot trained on your own content
+                                </h3>
+                                <p class="mt-4 text-xl font-normal leading-relaxed text-slate-600">
+                                    Ever wanted to clone yourself to answer customer queries? Now you can! Train your
+                                    chatbot
+                                    with
+                                    your content and let it echo your brand's voice. Who knew a chatbot could be your
+                                    digital
+                                    doppelgänger?
+                                </p>
+                            </div>
+
+                            <div class="col-span-3 text-center">
+                                <img class="mx-auto" src="../src/images/feature-1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="grid items-center grid-cols-2 px-16 py-8 gap-14">
+                        <div class="space-y-4 ">
+                            <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                QUICK PROMPTS
+                            </p>
+                            <h3 class="text-4xl font-semibold text-slate-900">
+                                Help users start conversations with quick prompts
+                            </h3>
+                            <p class="text-xl font-normal leading-relaxed text-slate-600">
+                                Give users a digital icebreaker to kick things off. Include frequently asked questions
+                                or
+                                questions you wish more users would ask to get value out of your product or service.
+                            </p>
+                        </div>
+                        <div class="">
+                            <img src="../src/images/feature-2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="grid items-center grid-cols-2 px-16 py-8 gap-14">
+                        <div class="space-y-4 ">
+                            <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                EMAIL SUMMARIES
+                            </p>
+                            <h3 class="text-4xl font-semibold text-slate-900">
+                                Stay up to date with daily email summaries
+                            </h3>
+                            <p class="text-xl font-normal leading-relaxed text-slate-600">
+                                Keep a pulse on chatbot interactions with daily summaries delivered to your inbox.
+                                Upload
+                                more
+                                training data where needed, track the chatbot's performance, and gain insights into user
+                                behavior.
+                            </p>
+                        </div>
+                        <div class="">
+                            <img src="../src/images/feature-3.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="grid items-center grid-cols-2 px-16 py-8 gap-14">
+                        <div class="space-y-4 ">
+                            <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                ESCALATE TO HUMAN
+                            </p>
+                            <h3 class="text-4xl font-semibold text-slate-900">
+                                Escalate to a human when necessary
+                            </h3>
+                            <p class="text-xl font-normal leading-relaxed text-slate-600">
+                                While AI can handle a vast majority of inquiries, some conversations require human
+                                touch.
+                                Users
+                                can seamlessly transition the conversation to a live agent at the push of a button. This
+                                hybrid
+                                approach ensures that users always receive the best possible assistance.
+                            </p>
+                        </div>
+                        <div class="">
+                            <img src="../src/images/feature-4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="grid items-center grid-cols-2 px-16 py-8 gap-14">
+                        <div class="space-y-4 ">
+                            <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                COLLECT LEADS
+                            </p>
+                            <h3 class="text-4xl font-semibold text-slate-900">
+                                Generate leads to follow up with later
+                            </h3>
+                            <p class="text-xl font-normal leading-relaxed text-slate-600">
+                                Don't just answer questions, seize opportunities. Our chatbot captures interested
+                                visitors'
+                                details, allowing you to build a list of potential leads.
+                            </p>
+                        </div>
+                        <div class="">
+                            <img src="../src/images/feature-5.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticky bg-white border top-8 border-slate-200 rounded-3xl">
+                    <div class="grid items-center grid-cols-2 px-16 py-8 gap-14">
+                        <div class="space-y-4 ">
+                            <p class="font-semibold tracking-wider text-blue-700 uppercase">
+                                FUNCTIONS
+                            </p>
+                            <h3 class="text-4xl font-semibold text-slate-900">
+                                Turn natural language commands into in-app actions
+                            </h3>
+                            <p class="text-xl font-normal leading-relaxed text-slate-600">
+                                Functions allows users to automate tasks just by interacting with your chatbot. Your
+                                chatbot
+                                can
+                                listen, understand, and interact with other systems based on chat interactions.
+                            </p>
+                        </div>
+                        <div class="">
+                            <img src="../src/images/feature-1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Card Six End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Integraion Section Start -->
+
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="font-semibold tracking-wider text-blue-700">
+                    SUPERCHARGE YOUR CHATBOT
+                </p>
+                <h2 class="mt-6 text-5xl font-semibold text-slate-900">
+                    Direct integrations with your favorite tools
+                </h2>
+                <p class="mt-4 text-xl font-medium text-slate-600">
+                    With native integrations into platforms like Crisp, Intercom, and Zendesk, our chatbot becomes
+                    an
+                    extended arm of your existing toolkit.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-16">
+                <img class="" src="../src/images/integrations (1).svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Integration Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Live Demo Section Start -->
+    <!-- background work nathi kartu and width pan set nathi thati -->
+
+    <div class="py-12 bg-white">
+        <div class="max-w-screen-xl px-8 mx-auto">
+            <div class="grid grid-cols-6 gap-8">
+                <div class="col-span-4 space-y-2 bg-red-200">
+                    <span class="font-semibold tracking-wider text-blue-700">
+                        LIVE DEMO
+                    </span>
+                    <div class="text-5xl font-semibold text-slate-900">
+                        See for yourself.
+                    </div>
+                    <p class="text-xl font-medium text-slate-600">
+                        Ask the SiteGPT chatbot a question about itself.
+                    </p>
+                </div>
+
+                <div class="col-span-2 bg-blue-200"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Live Demo Section End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Client Testimonials Start -->
+    <!-- Testimonials na title & subtitle niche nai avta -->
+
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-screen-xl px-4 mx-auto lg:px-8 sm:px-6 xl:px-12">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="font-semibold tracking-wider text-blue-600">
+                    CUSTOMER TESTIMONIALS
+                </div>
+                <div class="mt-4 text-5xl font-semibold text-slate-900">
+                    Don't just take our word for it
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-12 mt-8 sm:mt-12 lg:mt-16">
+                <div class="flex items-start justify-start gap-6">
+                    <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
+                        <img class="object-cover w-full h-full" src="../src/images/user-image.png" alt="">
+                    </div>
+
+                    <div>
+                        <p class="text-xl font-normal leading-relaxed text-slate-400">“SiteGPT appears to be first
+                            really
+                            production ready support solution that allows custom training, while so many others break or
+                            simply lack functionality. (we have tested and trialed MANY in the past 3 months)”
+                        </p>
+                        <p class="mt-2 text-base font-bold text-gray-900">
+                            User name
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start justify-start gap-6">
+                    <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
+                        <img class="object-cover w-full h-full" src="../src/images/user-image.png" alt="">
+                    </div>
+
+                    <div>
+                        <p class="text-xl font-normal leading-relaxed text-slate-400">“SiteGPT appears to be first
+                            really
+                            production ready support solution that allows custom training, while so many others break or
+                            simply lack functionality. (we have tested and trialed MANY in the past 3 months)”
+                        </p>
+                        <p class="mt-2 text-base font-bold text-gray-900">
+                            User name
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start justify-start gap-6">
+                    <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
+                        <img class="object-cover w-full h-full" src="../src/images/user-image.png" alt="">
+                    </div>
+
+                    <div>
+                        <p class="text-xl font-normal leading-relaxed text-slate-400">“SiteGPT appears to be first
+                            really
+                            production ready support solution that allows custom training, while so many others break or
+                            simply lack functionality. (we have tested and trialed MANY in the past 3 months)”
+                        </p>
+                        <p class="mt-2 text-base font-bold text-gray-900">
+                            User name
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start justify-start gap-6">
+                    <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
+                        <img class="object-cover w-full h-full" src="../src/images/user-image.png" alt="">
+                    </div>
+
+                    <div>
+                        <p class="text-xl font-normal leading-relaxed text-slate-400">“SiteGPT appears to be first
+                            really
+                            production ready support solution that allows custom training, while so many others break or
+                            simply lack functionality. (we have tested and trialed MANY in the past 3 months)”
+                        </p>
+                        <p class="mt-2 text-base font-bold text-gray-900">
+                            User name
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- FAQ'S Start -->
+
+    <!-- FAQ'S End -->
+
+    <!-- ----------------------------- -->
+
+    <!-- Call to Action Start -->
+
+    <!-- Call to Action End -->
+
+    <!-- ----------------------------- -->
+
+</body>
+
+<!-- Body Section Started -->
+
+<!-- ----------------------------- -->
+
+<!-- Footer Start -->
+
+<!-- Footer End -->
+
+<!-- ----------------------------- -->
+
+</html>

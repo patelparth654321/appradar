@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  @apply ring-1 ring-red-500;
+} */
